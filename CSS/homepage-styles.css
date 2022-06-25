@@ -1,0 +1,346 @@
+/*Homepage-styles*/
+
+#heart {
+    width: 5%;
+    height: auto;
+}
+
+#mypic {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.sidebarSection {
+     column-gap: normal;
+    }
+
+#kirshersPic {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    opacity: .7;
+    border-radius: 25px;
+}
+
+.portfolioProjects{
+    column-gap: normal;
+}
+.centered {
+    font-family: "Lucida Handwriting"; 
+}
+
+.centered1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 25%;
+    color: white;
+    padding: 1%;
+}
+
+.centered2 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 25%;
+    color: white;
+    padding: 1%;
+}
+
+.centered3 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 25%;
+    color: white;
+    padding: 1%;
+}
+
+#linkedIn {
+    width: 5%;
+    height: auto;
+}
+
+#containerGrid-1 {
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "topRow""leftSidebar""rightContent";
+   
+}
+
+#containerGrid-2 {
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "topRow""leftSidebar""rightContent";
+}
+
+.flexContainer {
+    display: flex;
+}
+
+#topRow {
+    display: flex 100%;
+    grid-area: topRow;
+}
+
+#leftSidebar {
+    grid-area: leftSidebar 100%;
+}
+
+#rightContent {
+    padding: 0px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content:center;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sidebarSection {
+    float: left;
+    width: 30%;
+}
+
+.imageSidebar {
+    font-family: "Lucida Handwriting";
+    text-align: center;
+}
+
+.socialMedia {
+    margin: auto;
+    text-align: center;
+}
+
+.socialMediaContent {
+    text-align-last:center;
+    display: absolute;
+    flex: 30%;
+}
+.links {
+    border: none;
+    text-align: center;
+    text-decoration:wavy;
+    display: inline-block;
+    font-size: 16px; 
+    position: relative;
+    left: 0px;
+    transition: transform .2s;
+}
+.links:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+#media {
+    border: none;
+    width: 13%;
+    height: 13%;
+    text-align: justify;
+  
+    display: inline block;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+    cursor: pointer;
+    transition: transform .2s;
+    }
+
+    #media:hover {box-shadow:10px 10px 5px #666;
+        -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    }
+      
+    #media:active {
+        background-color: #D5BFB2;
+        transform: translateY(4px);
+    }
+    
+
+.button {
+    margin: auto;
+    background-color: #BE9A9C; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration:wavy;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 20%;
+    position: relative;
+    left: 6%;
+}
+.button {
+    margin: 5%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #BE9A9C; 
+    border: none;
+    order-radius: 25px;
+    box-shadow: 0 9px #999;
+}
+      
+    .button:hover {background-color:#D5BFB2}
+      
+    .button:active {
+        background-color: #D5BFB2;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+
+.portfolioProjects {
+    width: 70%;
+    float: left;
+    display: flex;
+}
+
+.projectBloc {
+    width: 30%;
+    height: 30%;
+    flex: 50%;
+    border-radius: 25%;
+    }
+
+    .centered4 {
+        position: absolute;
+        top: 38%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
+    }
+    
+    .centered5 {
+        position: absolute;
+        top: 42%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
+    }
+    
+    .centered6 {
+        position: absolute;
+        top: 46%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
+}
+
+#mobile {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content:center;
+    font-family: "Lucida Handwriting";
+    opacity: .7;
+    margin: .5;
+    }
+
+
+
+
+ @media screen and (max-width: 600px) 
+    {
+        .flex-container {
+          flex-direction: column;
+        } 
+    }
+    
+    
+
+
+/*head {
+    background-image: url(../images/mepic.jpg);
+    height: 250px;
+    max-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+
+    background-color: E5E5E5;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: left;
+}
+body {
+    background-color: E5E5E5;
+
+    color: #353738;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    text-align: left;
+    margin: 5%;
+
+    #mypic {
+        height: 250px;
+        max-height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        size: 25%;  
+        position: :left;
+        padding: auto;
+    }
+
+    .containerGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "topRow leftSidebar rightContent";
+        height: 500px
+    }
+    .topRow {
+        grid-area: topRow;
+    }
+    .leftSidebar {
+        grid-area: leftSidebar
+    }
+    .rightContent {
+        grid-area: rightContent;
+    }
+
+    #kirshersPic {
+        width: 35px !important;
+       object-fit: cover;
+        height: 1%;
+}
+    
+    #mobile {
+        float: left;
+        size 15%}
+        
+    #linkedIn {
+        size: 15%;
+    }
+}
+*/
