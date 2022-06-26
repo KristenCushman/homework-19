@@ -5,7 +5,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Kdam+Thmor+Pro&family=Kite+One&family=Lato:ital,wght@1,300&family=Oswald:wght@500&family=Roboto+Slab:wght@200&family=Source+Serif+4:opsz,wght@8..60,300&display=swap" rel="stylesheet">	<link rel="stylesheet" href="CSS/homepage-styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
 
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
 </head>
 
 <body>
@@ -35,20 +55,47 @@
 					<div class="links"><b>LinkedIn Page</b></div>
 						
 				</div>
-				<div class= "button btn1">My Work</div> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <!--link to projects-->
-				<div class="button">Resume</div> <!--link to resume-->
+				<button class= "button btn1">My Work</button> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <!--link to projects-->
+				<button class="button second">Resume</button> <!--link to resume-->
 				
 			</div>
 		</div>
 	</sec>
 	<sec>
 		<div class="portfolioProjects">
-			<div class="projectBloc">
+			<button>
 				<img id="kirshersPic" src="images/kirshers.jpg" alt="image-of-a-bear">
-				<div class="centered1 centered">Non-Profit</div>
-				<div class="centered2 centered">Kirshner's Wildlife Sanctuary </div>
-				<div class="centered3 centered"> Web Redesign</div>
-			</div>
+				<div class="centered1 centered"><h1>Non-Profit</h1></div>
+				<div class="centered2 centered"><h2>Kirshner's Wildlife Sanctuary</h2> </div>
+				<div class="centered3 centered"><h3>Web Redesign</h3></div>
+				<div id="flip">Click to see description</div>
+				<div id="panel">Kirshner's website redesign was a <br>group project designed to identify 
+					issues with the<br> current website and identify key components to make<br> user experiences 
+					more inviting and userfriendly</div>
+
+			</button>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".projectBloc").click(function(){
+    $(".projectBloc").slideDown("slow");
+  });
+});
+</script>
+<style> 
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
 			<div class="projectBloc">
 				<img id="mobile" src="images/mobile.png" alt="mobile-application">
 				 <div class="centered4 centered">Pet Pro</div>
@@ -68,6 +115,7 @@
 		</div>-->
 	</sec>
 <br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./index.js"></script>
 </body>
