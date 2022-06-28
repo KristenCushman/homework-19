@@ -220,16 +220,18 @@
 }
 
 .projectBloc {
-    width: 30%;
-    height: 30%;
-    flex: 50%;
+   position: center;
+    width: 100%;
+    height:450%;
+    flex: 40%;
     border-radius: 25%;
+    background-image: url(https://files.slack.com/files-pri/T02TFD1JT26-F03M6NX27V4/ezgif-4-654ff8cd70.gif);
     }
 
     .centered4 {
         position: absolute;
         top: 38%;
-        left: 82.5%;
+        left: 75%;
         transform: translate(-50%, -50%);
         margin-bottom: 25%;
         color: black;
@@ -239,7 +241,7 @@
     .centered5 {
         position: absolute;
         top: 42%;
-        left: 82.5%;
+        left: 75%;
         transform: translate(-50%, -50%);
         margin-bottom: 25%;
         color: black;
@@ -249,7 +251,7 @@
     .centered6 {
         position: absolute;
         top: 46%;
-        left: 82.5%;
+        left: 75%;
         transform: translate(-50%, -50%);
         margin-bottom: 25%;
         color: black;
@@ -267,6 +269,7 @@
     font-family: "Lucida Handwriting";
     opacity: .7;
     margin: .5;
+    background-image: url(https://files.slack.com/files-pri/T02TFD1JT26-F03M6NX27V4/ezgif-4-654ff8cd70.gif) 
     }
 
 
