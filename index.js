@@ -8,7 +8,11 @@ $(".btn1").click(function(){
     window.location="https://github.com/KristenCushman/homework-19"
 })
 
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-TWSXWBTKZ4');
 
 $("portfolioProjects").ready(function(){
   $("portfolioPorjects").click(function(){
@@ -21,4 +25,28 @@ $("portfolioProjects").ready(function(){
   });
 });
 
+
+$(document).ready(function () {
+    $("#flip").click(function () {
+        $("#panel").slideDown("slow");
+    });
+});
+
+$(document).ready(function () {
+    $("#flip2").click(function () {
+        $("#panel2").slideDown("slow");
+    });
+});
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-TWSXWBTKZ4');
+
+$(document).ready(function () {
+    $(".projectBloc").click(function () {
+        $(".projectBloc").slideDown("slow");
+    });
+});
 

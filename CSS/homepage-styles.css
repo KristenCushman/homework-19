@@ -272,9 +272,32 @@
     background-image: url(https://files.slack.com/files-pri/T02TFD1JT26-F03M6NX27V4/ezgif-4-654ff8cd70.gif) 
     }
 
+   
+    #panel,
+    #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #D8C8BB;
+        border: solid 1px #D8C8BB;
+    }
 
+    #panel {
+        padding: 50px;
+        display: none;
+    }
 
+    #panel2,
+    #flip2 {
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+    }
 
+    #panel2 {
+        padding: 50px;
+        display: none;
+    }
  @media screen and (max-width: 600px) 
     {
         .flex-container {
